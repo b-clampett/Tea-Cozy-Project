@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 20px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    border-bottom: 1px  solid seashell;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    float: left;
+    margin: 10px;
+    opacity: 0.9;
+}
+
+.navigation ul {
+    float: right;
+    padding: 20px 0px;
+}
+
+.navigation li {
+    display: inline;
+    text-decoration: underline;
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.banner {
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    background-image: url("./assets/images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    z-index: -1;
+}
+
+.title-bar {
+    background-color: black;
+    position: relative;
+    padding: 10px 0px;
+    top: 300px;
+    width: 1200px;
+}
+
+.title-bar h2 {
+    margin-bottom: 20px;
+    opacity: 0.9;
+} 
+
+.title-bar h4 {
+    opacity: 0.9;
+}
+
+#title-bar-2 {
+    position: relative;
+    top: 80px;
+    margin: 60px auto;
+    opacity: 0.9;
+}
+
+#title-bar-2 h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    opacity: 0.9;  
+}
+
+#title-bar-2 h4 {
+    margin-bottom: 20px;
+    opacity: 0.9;
+
+}
+.picture-container {
+    position: relative;
+    top: 40px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.picture {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.picture h4 {
+    margin: 5px;
+    opacity: 0.9;
+}
+
+.picture img {
+    height: 200px;
+    width: 300px;
+}
+
+.locations {
+    position: relative;
+    top: 70px;
+    background-image: url("./assets/images/img-locations-background.jpg");
+    margin: 10px auto;
+    height: 500px;
+    width: 1200px;
+}
+
+.banner-2 {
+
+}
+
+.banner-2 h2 {
+    position: relative;
+    top: 70px;
+    opacity: 0.9;
+}
+
+.box {
+    position: relative;
+    top: 85px;
+    display: inline-block;
+    margin: 20px;
+    width: 300px;
+    height: 275px;
+    line-height: 3.3em; 
+    background-color: black;
+    opacity: 1;
+}
+
+.box h3 {
+    margin-top: 5px;
+}
+
+footer {
+    position: relative;
+    top: 50px;
+    line-height: 4em;
+}
+
+.copyright {
+    margin-left: 20px;
+    text-align: left;
+}
